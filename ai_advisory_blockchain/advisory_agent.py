@@ -64,7 +64,7 @@ def run_agentic_loop(investor: dict):
     # 4. Human-in-the-loop escalation
     if port_std > 0.20:
         print(f"  -> [DECISION] ESCALATED_TO_HUMAN_ADVISOR")
-        print(f"     Reason: Portfolio volatility ({port_std:.2%}) exceeds 20% safe threshold.")
+        print(f"     Reason: Portfolio volatility ({port_std:.2%}) exceeds 20% safe threshold. (Expected Return: {port_er:.2%})")
         return
         
     # 5. Narrative Output (Gated by MOCK_LLM)

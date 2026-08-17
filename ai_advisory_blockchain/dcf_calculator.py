@@ -79,7 +79,7 @@ def run_dcf_valuation():
     
     print(f"\nEV/EBITDA Cross-Check Valuation: {ev_ebitda_valuation} INR Cr")
     print("\n--- Written Comparison ---")
-    print("The DCF valuation yields a significantly higher baseline enterprise value (~4,342 INR Cr) compared to the EV/EBITDA multiples approach (5,100 INR Cr). This suggests that relying solely on near-term cash flows and conservative perpetual growth assumptions may undervalue the business relative to prevailing market multiples, highlighting the importance of blending intrinsic and relative valuation techniques.")
-
+    print("The DCF valuation yields a baseline enterprise value of 5,311 INR Cr, which aligns closely (within ~4%) with the EV/EBITDA multiples approach valuation of 5,100 INR Cr. This convergence suggests that the near-term cash flow growth and conservative perpetual growth assumptions appropriately reflect the market-implied multiple, providing stronger confidence in the overall valuation.")
+    
 if __name__ == "__main__":
     run_dcf_valuation()
